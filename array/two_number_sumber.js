@@ -9,6 +9,7 @@ function twoNumberSum(array, target) {
 		// console.log(hash);
 		hash[array[i]] = i;
 	}
+	return false;
 }
 
-console.log(twoNumberSum([ 1, 3, 4, 5, 6 ], 6));
+console.log(twoNumberSum([ 1, 3, 4, 5, 6 ], 20));
