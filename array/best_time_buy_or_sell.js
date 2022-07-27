@@ -1,6 +1,6 @@
 /**
- * Desc: the code find the max difference between points in an array
- *        the maximum profits corresponds to the two poinst with the highest difference in an array
+ * Space Complexicity: O(1)
+ * Time Complexicity: O(N)
  * @param prices[]
  * @returns MaxProfit: integer
  */
@@ -15,7 +15,6 @@ function bestTimeToBuyOrSell(prices) {
 		} else {
 			left = right;
 		}
-
 		right += 1;
 	}
 	return maxProfit;

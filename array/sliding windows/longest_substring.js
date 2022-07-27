@@ -1,5 +1,6 @@
 /**
- * 
+ *  TC: O(N)
+ *  SC: O(N)
  * @param str: string
  * @return 
  */
